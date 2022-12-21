@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background_3"
+    tools:context=".LoginScreen">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/login" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/shape"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/etMailLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textColorHint="#E1DEDE"
+                android:textColor="@android:color/white"
+                android:hint="Email"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etPassLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:textColorHint="#E1DEDE"
+                android:textColor="@android:color/white"
+                android:inputType="textPassword"
+                android:hint="Mật khẩu"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#44D9EC"
+                android:id="@+id/tvChangePass"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="Đổi mật khẩu"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="#44D9EC"
+
+                android:id="@+id/tvForgetPass"
+                android:textStyle="bold"
+                android:textSize="15dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="Quên mật khẩu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnReg"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#E14C4C"
+                android:text="Đăng kí" />
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#E14C4C"
+                android:id="@+id/btnLog"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="Đăng nhập" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

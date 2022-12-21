@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/etEmailSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="8dp"
+        android:hint="Email"
+        android:layout_gravity="center"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:orientation="horizontal">
+       <Button
+           android:id="@+id/btnBack"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Huỷ bỏ"/>
+       <Button
+           android:id="@+id/btnSend"
+           android:layout_marginLeft="40dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Gửi"/>
+   </LinearLayout>
+</LinearLayout>

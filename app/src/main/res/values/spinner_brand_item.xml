@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_brand">
+        <item>Apple</item>
+        <item>Asus</item>
+        <item>Samsung</item>
+        <item>Xiaomi</item>
+        <item>Nokia</item>
+    </string-array>
+</resources>

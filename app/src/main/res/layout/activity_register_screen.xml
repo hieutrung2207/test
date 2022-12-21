@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_3"
+    tools:context=".LoginScreen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí tài khoản"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_light"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical">
+        <EditText
+            android:textColorHint="#E1DEDE"
+            android:id="@+id/etUserReg"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:hint="Tên người dùng"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+
+
+
+            />
+        <EditText
+            android:textColorHint="#E1DEDE"
+            android:id="@+id/etPassReg"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="8dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:hint="Mật khẩu"/>
+        <EditText
+            android:textColorHint="#E1DEDE"
+            android:textColor="@android:color/white"
+            android:id="@+id/etRePassReg"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="8dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:hint="Nhập lại mật khẩu"/>
+        <EditText
+            android:textColorHint="#E1DEDE"
+            android:id="@+id/etEmailReg"
+            android:layout_width="350sp"
+            android:layout_height="40sp"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:hint="Email"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:textStyle="bold"
+            android:textColor="#E14C4C"
+            android:id="@+id/btnBack"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Quay lại"/>
+        <Button
+            android:textStyle="bold"
+            android:textColor="#E14C4C"
+            android:id="@+id/btnRegAdd"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Đăng Kí"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
